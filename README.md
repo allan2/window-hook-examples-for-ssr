@@ -1,5 +1,7 @@
 # Window Hook Examples for SSR
 
+Code sandbox is [here](https://35k2z.sse.codesandbox.io/)
+
 When using server-side rendering, window hooks often hit a snag on hydration.
 
 Thanks to [Adrien Rahier](https://dev.to/adrien) for [highlighting the problem and the solution](https://dev.to/adrien/creating-a-custom-react-hook-to-get-the-window-s-dimensions-in-next-js-135k).
