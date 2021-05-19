@@ -14,7 +14,7 @@ It has four examples:
 4. Not working (Reed)
 5. Working (rooks, lightly modified)
 
-Most examples work when you build, with Ex. 3 being the exception. It's excluded from `build` in `.next.config.js`.
+Most examples work when you build, with Ex. 3 being the exception. It's excluded from `build` in `next.config.js`.
 Thanks to [shynome's issue comment](https://github.com/vercel/next.js/issues/8454#issuecomment-560432659) and [Kiran's SO answer](https://stackoverflow.com/questions/66872816/temporary-disable-next-js-pages-on-build) for this.
 
 Interestingly, hydration errors are showing on the dev server only. I haven't figured out why yet.
