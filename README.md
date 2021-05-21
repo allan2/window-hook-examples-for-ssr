@@ -4,7 +4,10 @@ Code sandbox is [here](https://35k2z.sse.codesandbox.io/)
 
 When using server-side rendering, window hooks often hit a snag on hydration.
 
-Thanks to [Adrien Rahier](https://dev.to/adrien) for [highlighting the problem and the solution](https://dev.to/adrien/creating-a-custom-react-hook-to-get-the-window-s-dimensions-in-next-js-135k).
+## Acknowledgements
+- [Adrien Rahier](https://dev.to/adrien) for [highlighting the problem and the solution](https://dev.to/adrien/creating-a-custom-react-hook-to-get-the-window-s-dimensions-in-next-js-135k).
+- [Josh W Comeau](https://www.joshwcomeau.com/) for writing this excellent article titled [The Perils of Rehydration: An Eye-Opening Realization about React](https://www.joshwcomeau.com/react/the-perils-of-rehydration/). 
+
 
 This repo shows some Next.js + TypeScript minimal working examples.
 SSR is used on all of them. They are variants of a window resize hook.
