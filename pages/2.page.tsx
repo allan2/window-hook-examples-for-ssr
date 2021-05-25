@@ -27,7 +27,6 @@ const useWindowDimensions = (): WindowDimensions => {
         height: window.innerHeight,
       })
     }
-    handleResize()
     window.addEventListener('resize', handleResize)
     return (): void => window.removeEventListener('resize', handleResize)
   }, []) // Empty array ensures that effect is only run on mount
